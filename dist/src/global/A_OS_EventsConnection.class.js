@@ -92,7 +92,7 @@ class A_OS_EventsConnection {
                 this.context.Logger.log(`[!] A-OS Connection Ready`);
                 this.channel = event.source;
             });
-        this.addListener(this.handle);
+        this.addListener(this.handle.bind(this));
     }
     request(request, callback) {
         const promise = new Promise((resolve, reject) => __awaiter(this, void 0, void 0, function* () {

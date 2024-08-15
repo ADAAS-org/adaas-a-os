@@ -149,7 +149,7 @@ export class A_OS_EventsConnection {
                 this.channel = event.source as Window;
             });
 
-        this.addListener(this.handle);
+        this.addListener(this.handle.bind(this));
     }
 
 
