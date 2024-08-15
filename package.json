@@ -1,6 +1,6 @@
 {
   "name": "@adaas/a-os",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "The SDK to interact with a-os API",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
